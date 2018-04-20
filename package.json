@@ -1,0 +1,42 @@
+{
+    "name": "anygoal",
+    "version": "0.1.0",
+    "description": "Tiny Node.js web server",
+    "main": "src/index.js",
+    "bin": {
+        "anydoor": "bin/anydoor"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pro-commit": [
+        "fix",
+        "lint"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/.git"
+    },
+    "keywords": [
+        "static",
+        "webserver"
+    ],
+    "author": "enigma1912",
+    "email": "leohao@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Enigma1912/anygoal/issues"
+    },
+    "homepage": "https://github.com/Enigma1912/anygoal#readme",
+    "devDependencies": {
+        "babel-eslint": "",
+        "eslint": "^4.19.0",
+        "pre-commit": ""
+    },
+    "dependencies": {
+        "chalk": "^2.3.2",
+        "handlebars": "^4.0.11",
+        "yargs": "^11.0.0"
+    }
+}
